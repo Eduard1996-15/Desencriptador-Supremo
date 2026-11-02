@@ -1,0 +1,44 @@
+{
+    "general": {
+        "theme": "dark",
+        "language": "es",
+        "auto_save": true,
+        "backup_enabled": true
+    },
+    "performance": {
+        "use_gpu": true,
+        "use_multithread": true,
+        "max_threads": 16,
+        "memory_optimization": false,
+        "cache_enabled": true,
+        "cache_size_mb": 512
+    },
+    "attacks": {
+        "default_charset": "abcdefghijklmnopqrstuvwxyz0123456789",
+        "max_password_length": 12,
+        "timeout_minutes": 60,
+        "save_progress": true,
+        "auto_resume": true
+    },
+    "paths": {
+        "dictionaries": "./data/dictionaries/",
+        "wordlists": "./data/wordlists/",
+        "certificates": "./data/certificates/",
+        "output": "./output/",
+        "temp": "./temp/",
+        "logs": "./logs/"
+    },
+    "security": {
+        "log_passwords": false,
+        "secure_delete": true,
+        "encrypt_temp_files": true,
+        "audit_trail": true
+    },
+    "advanced": {
+        "debug_mode": false,
+        "verbose_logging": false,
+        "experimental_features": false,
+        "cuda_device_id": 0,
+        "opencl_platform": 0
+    }
+}
